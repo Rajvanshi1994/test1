@@ -58,6 +58,7 @@ public class XAflow {
 		Thread.sleep(3000);
 
 		// CALCULATE ESTIMATE
+		
 		driver.findElement(By.xpath("//*[@id=\'root\']/div/section/div/div[3]/button")).click();
 		System.out.println("Calculate the Estimate");
 
